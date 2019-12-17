@@ -12,7 +12,7 @@ s.source = { :git => 'https://github.com/rafattouqir/LNPopupController.git', :ta
 s.source_files = 'LNPopupController/*.{h,m}', "LNPopupController/#{s.name}/*.{h,m}", "LNPopupController/#{s.name}/**/*.{h,m}"
 #s.resources    = 'LNPopupController/*.xcassets'
 s.requires_arc = true
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '10.0'
 
 s.dependency 'MarqueeLabel'#, '3.0.0'
 end
