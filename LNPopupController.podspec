@@ -12,7 +12,7 @@ s.source = { :git => 'https://github.com/rafattouqir/LNPopupController.git', :ta
 s.source_files = "LNPopupController/*.{h,m}", "LNPopupController/LNPopupController/*.{h,m}", "LNPopupController/LNPopupController/**/*.{h,m}"
 #s.resources    = 'LNPopupController/*.xcassets'
 s.prefix_header_file = "LNPopupController/LNPopupController.pch"
-
+s.frameworks = 'UIKit'
 s.requires_arc = true
 s.ios.deployment_target = '10.0'
 
