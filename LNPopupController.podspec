@@ -9,8 +9,10 @@ s.homepage = 'https://github.com/LeoNatan/LNPopupController'
 s.license = 'MIT'
 s.author = { "Leo Natan" => "lnatan@wix.com" }
 s.source = { :git => 'https://github.com/rafattouqir/LNPopupController.git', :tag => 'v' << s.version.to_s }
-s.source_files = 'LNPopupController/*.{h,m}', "LNPopupController/#{s.name}/*.{h,m}", "LNPopupController/#{s.name}/**/*.{h,m}"
+s.source_files = "#{s.name}/*.{h,m}", "#{s.name}/#{s.name}/*.{h,m}", "#{s.name}/#{s.name}/**/*.{h,m}"
 #s.resources    = 'LNPopupController/*.xcassets'
+s.prefix_header_file = "#{s.name}/*.pch"
+
 s.requires_arc = true
 s.ios.deployment_target = '10.0'
 
