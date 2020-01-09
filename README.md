@@ -1,6 +1,10 @@
 # LNPopupController
 
-<img src="./Supplements/Artwork.png" width=256/>
+Forget everything and run
+
+```bash
+pod install
+```
 
 `LNPopupController` is a framework for presenting view controllers as popups of other view controllers, much like the Apple Music and Podcasts apps.
 
