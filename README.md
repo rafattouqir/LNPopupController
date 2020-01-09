@@ -4,7 +4,7 @@ Forget everything
 
 Just add to your Podfile
 ```bash
-pod 'SQLite.swift', :git => 'https://github.com/rafattouqir/LNPopupController.git'
+pod 'LNPopupController', :git => 'https://github.com/rafattouqir/LNPopupController.git'
 ```
 and run via your terminal
 ```bash
