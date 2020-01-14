@@ -9,7 +9,8 @@ s.homepage = 'https://github.com/LeoNatan/LNPopupController'
 s.license = 'MIT'
 s.author = { "Leo Natan" => "lnatan@wix.com" }
 s.source = { :git => 'https://github.com/rafattouqir/LNPopupController.git', :tag => 'v' << s.version.to_s }
-s.source_files = "LNPopupController/*.{h,m}", "LNPopupController/LNPopupController/*.{h,m}", "LNPopupController/LNPopupController/**/*.{h,m}"
+s.source_files = "LNPopupController/LNPopupController/*.{h,m}", "LNPopupController/LNPopupController/**/*.{h,m}"
+s.public_header_files = "LNPopupController/LNPopupController.h"  
 #s.resources    = 'LNPopupController/*.xcassets'
 s.prefix_header_file = "LNPopupController/LNPopupController.pch"
 s.frameworks = 'UIKit'
